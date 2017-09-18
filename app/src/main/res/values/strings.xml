@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">BuyApp</string>
+
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="general_progress_dialog_title">Loading</string>
+    <string name="general_progress_dialog_content">Please wait...</string>
+
+    <string name="login.message.email">Corrreo electronico</string>
+    <string name="login.message.password">Password</string>
+    <string name="login.button.signin">Iniciar sesion</string>
+    <string name="login.button.signup">Crear cuenta</string>
+    <string name="login.error.message.signin">Imposible iniciar sesion %s</string>
+    <string name="login.error.message.signup">Imposible registrar nuevo usuario %s</string>
+    <string name="login.notice.message.signup">Usuario agregado exitosamente</string>
+
+    <string name="contactlist.menu.action.signoff">Cerrar sesion</string>
+    <string name="contactlist.title">Contactos</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="addcontact.message.title">Agregar contacto</string>
+    <string name="addcontact.message.add">Aceptar</string>
+    <string name="addcontact.message.cancel">Cancelar</string>
+    <string name="addcontact.message.contactadded">Contacto agregado exitasamente</string>
+    <string name="addcontact.error.message">Imposible agregar usuario no existente</string>
+
+
+    <!-- Login -->
+    <string name="login">Login</string>
+    <string name="login_cta">Sign In</string>
+    <string name="hint_email_address">Email address</string>
+    <string name="hint_password">Password</string>
+    <!-- OnBoarding -->
+    <string name="onboarding_title">Get shit done with Firebucket!</string>
+    <string name="onboarding_cta_register">Create an account</string>
+
+    <!-- Registration -->
+    <string name="register">Create an account</string>
+    <string name="register_cta">Register</string>
+
+    <!-- Errors -->
+    <string name="error_firebase_auth_login">Oops, an error occurred while trying to Login.</string>
+    <string name="error_firebase_auth_register">Oops, an error occurred while trying to register.</string>
+    <string name="error_login_invalid_email">Please provide a valid email address</string>
+    <string name="error_login_invalid_password">Please provide a valid password</string>
+    <string name="error_create_task">Oops, something went wrong while creating the task.</string>
+    <string name="error_create_task_date_picking_too_early">Only Marty McFly can go back in the past.</string>
+    <string name="error_create_task_invalid_title">Please, provide a title for the task.</string>
+    <string name="error_create_task_voice_recognition_error_code">Oops, error %1$d</string>
+    <string name="error_create_task_voice_recognition">Oops, something went wrong while trying to understand what you said.</string>
+    <string name="error_create_task_get_tags">Oops, something went wrong while trying to get the tags.</string>
+    <!-- Esto talves vaya en el horizontal-->
+    <string name="transition_logo_onboarding_to_login_and_register">transition_logo</string>
+</resources>

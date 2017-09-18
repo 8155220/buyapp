@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorButtonNormal">@android:color/white</item>
+    </style>
+
+    <!-- Toolbar -->
+    <style name="MaterialDesignTheme.ToolBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:layout_height">@dimen/material_design_toolbar_height</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="MaterialDesignTheme.ToolBarPrimary" parent="MaterialDesignTheme.ToolBar">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:textColorPrimaryInverse">@android:color/white</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+    </style>
+
+    <style name="MaterialDesignTheme.ToolBarPrimary.Title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_xxlarge</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="OnBoardingActivityTheme" parent="AppTheme.NoActionBar">
+        <item name="android:windowBackground">@color/colorPrimary</item>
+    </style>
+
+    <!-- Launch Screen theme -->
+    <style name="AppTheme.LaunchScreen" parent="AppTheme.NoActionBar">
+        <item name="android:windowBackground">@drawable/layer_launch_screen</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item> <!-- Status bar -->
+    </style>
+</resources>
